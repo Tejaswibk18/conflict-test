@@ -1,3 +1,6 @@
-def get_greeting(name, uppercase=False):
-    msg = f"Hello, {name}!"
+def get_greeting(name, title="", uppercase=False):
+    if title:
+        msg = f"Hello, {title} {name}!"
+    else:
+        msg = f"Hello, {name}!"
     return msg.upper() if uppercase else msg
