@@ -1,2 +1,3 @@
-def get_greeting(name):
-    return f"Hello, {name}!"
+def get_greeting(name, uppercase=False):
+    msg = f"Hello, {name}!"
+    return msg.upper() if uppercase else msg
