@@ -1,4 +1,2 @@
-def get_greet(name, title=""):
-    if title:
-        return f"Hello, {title} {name}!"
-    return f"Hello, {name}!"
+def get_message():
+    return "Hello from FEATURE"
