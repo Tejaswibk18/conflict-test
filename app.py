@@ -1,2 +1,2 @@
 def get_message():
-    return "Hello from FEATURE"
+    return "Hello from commit FEATURE"
